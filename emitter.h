@@ -18,7 +18,7 @@ class Emitter : public sc_core::sc_module {
   sc_core::sc_port<EmitterInterface> output_port_;
  private:
   void EmitStuff();
-  int data_;
+  unsigned int data_;
 };
 
 #endif /* EMITTER_H_ */

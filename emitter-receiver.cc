@@ -34,7 +34,7 @@ SC_MODULE(EmitterReceiverTop) {
 };
 
 int sc_main(int argc, char* argv[]) {
-  EmitterReceiverTop ("EmitterReceiverTop");
+  EmitterReceiverTop top("top");
 
   sc_core::sc_start();
   return(0);
